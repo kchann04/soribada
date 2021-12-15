@@ -68,12 +68,14 @@ header .setting{display: block;
 
 /* chart */
 
-.chart{height: 360px; padding-left: 15px;}
-.chart .tap_tit{height: 40px; position: relative; margin-bottom: 5px;}
-.chart .tap_tit h2{font-size: 20px; font-weight: bold;}
-.chart .tap_tit div{position: absolute; top: 3px; right: 15px;}
-.chart .tap_tit div p{font-size: 17px; display: inline-block; cursor: pointer;}
-.chart .tap_tit div .on{color: #008fcc; font-weight: 400;}
+.chart{ padding-left: 15px; }
+.chart .tab_wrap{height: 360px; position: relative;}
+.chart .tap_tit{height: 40px; margin-bottom: 5px;}
+.chart .tap_tit h2{font-size: 20px; font-weight: bold; float: left;}
+.chart .tap_tit ul{float: right; width: 90px; height: 40px;}
+.chart .tap_tit ul li{float: left; width: 40px; height: 40px; font-size: 16px;}
+
+.chart .tap_tit li.on{color: #008fcc;}
 
 .chart .tab_con .con01, .con02{display: none;}
 .chart .tab_con .con01{display: block;}
