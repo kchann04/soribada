@@ -20,7 +20,7 @@ $(document).ready(function(){
     spaceBetween: 10,
   });
 
- $(".tab_tit li").click(function(){
+  $(".tab_tit li").click(function(){
    var idx = $(this).index();
 
   $(".tab_tit li").removeClass("on");
