@@ -79,7 +79,7 @@ header .setting{display: block;
 
 .chart .tab_con .con01, .con02{display: none;}
 .chart .tab_con .con01{display: block;}
-.chart li{display: block; height: 55px; margin-bottom: 10px;}
+.chart .tab_con li{display: block; height: 55px; margin-bottom: 10px;}
 .chart .cover{
   width: 55px; border-radius: 10px;
   overflow: hidden; float: left;
