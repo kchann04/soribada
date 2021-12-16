@@ -20,11 +20,11 @@ $(document).ready(function(){
     spaceBetween: 10,
   });
 
-  $(".tab_tit li").click(function(){
+  $(".chart .tap_tit ul li").click(function(){
    var idx = $(this).index();
 
-  $(".tab_tit li").removeClass("on");
-  $(".tab_tit li").eq(idx).addClass("on");
+  $(".chart .tap_tit ul li").removeClass("on");
+  $(".chart .tap_tit ul li").eq(idx).addClass("on");
   $(".tab_con > .con").hide();
   $(".tab_con > .con").eq(idx).show();
  });
